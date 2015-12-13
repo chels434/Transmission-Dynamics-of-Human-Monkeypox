@@ -1,0 +1,23 @@
+\section{Results}
+
+
+\usepackage[font=small,labelfont=bf,tableposition=top]{caption}
+\usepackage{booktabs,multirow}
+
+
+      \begin{table}[!ht]
+        \footnotesize
+        \caption{Caption to the Table}
+        \label{tab:table}
+        \centering
+        \begin{tabular}{lcccccccc} 
+        \toprule
+          & \multicolumn{4}{c}{1981-1986} & \multicolumn{4}{c}{2005-2007} \\ % Amalgamating several columns into one cell is done using the \multicolumn command as seen on this line
+\cmidrule(r){2-5} % Horizontal line spanning less than the full width of the table - you can add (r) or (l) just before the opening curly bracket to shorten the rule on the left or right side
+\cmidrule(l){6-9}
+ & No. Cases & No. Contacts & AR crude & Reff & No. Cases & No. Contacts & AR crude & Reff\\ % Column names row
+\midrule % In-table horizontal line
+Total contacts reported & 3686 & 93 & 0.025 & 0.275 & 1861 & 166 & 0.089 & 0.563\\ 
+Individuals contacts & - & - & - & - & 1453 & 97 & 0.067 & 0.485\\ \bottomrule
+        \end{tabular}
+      \end{table}
