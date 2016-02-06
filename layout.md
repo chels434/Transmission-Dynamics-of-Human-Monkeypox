@@ -1,4 +1,5 @@
 Abstract.tex
+Methods.tex
 Results 1.tex
 Results.tex
 Table 2.tex
