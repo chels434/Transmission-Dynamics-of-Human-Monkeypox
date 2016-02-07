@@ -1,6 +1,7 @@
 Abstract.tex
 Introduction.tex
 Methods.tex
+Descriptive Analysis.tex
 Results 1.tex
 Results.tex
 Table 2.tex
