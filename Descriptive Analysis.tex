@@ -1,5 +1,5 @@
 \subsection{Descriptive Analysis}
-We performed a descriptive analysis of disease transmission on the data reported from the 1980s and the data collects in 2005-7, using contact event as the unit of analysis, to compare the average number of contacts per case and proportion of household contacts between the two studies. In the 2005-7 study, 86\%** of all reported contacts were classified as household contacts, and the before contact data collection form did ask this question. Therefore, to standardize this variable, we classified household contacts based on their relationship to the case, according to Table 1. We then used the equations provided by Fine et al \cite{Fine1988} to determine the secondary attack rates and crude absolute secondary attack rates during the current and 1980s studies. We used $\chi$\ \textsuperscript{2} tests to determine a significant differences between the characteristics of each study.
+We performed a descriptive analysis of disease transmission on the data reported from the 1980s and the data collects in 2005-7, using contact event as the unit of analysis, to compare the average number of contacts per case and proportion of household contacts between the two studies. In the 2005-7 study, 86\%** of all reported contacts were classified as household contacts, and the before contact data collection form did ask this question. Therefore, to standardize this variable, we classified household contacts based on their relationship to the case, according to Table 1. We then used the equations provided by Fine et al \cite{Fine1988} to determine the secondary attack rates and crude absolute secondary attack rates during the current and 1980s studies. We used $\chi$\ \textsuperscript{2} tests to determine a significant differences between the characteristics of each study. All analyses were conducted using R.**[cite]
 
 \begin{table} 
 \centering
@@ -16,8 +16,8 @@ We performed a descriptive analysis of disease transmission on the data reported
     \end{tabular} 
 \end{table}
 
-To determine the secondary attack rates and reproductive numbers of both surveillance programs, we adapted the equations used by Fine et al \cite{Fine1988}. 
-The crude absolute secondary attack rate, $AR_{crude}$, was found by dividing $n_{inf}$, the number of contacts subsequently infected by $n_{total}$, the total number of contacts reported \ref{eqn:equation 1}. To determine the $R_{eff}$, we multiplied $AR_{crude}$ by $\bar{n}$, the average number of contacts per case (Equation 2).3  All analysis were carried out in Excel and R.10
+To compare the secondary attack rates and effective reproductive numbers ($R_{eff}$) of both surveillance programs, we adapted the equations used by Fine et al \cite{Fine1988}. 
+The crude absolute secondary attack rate, $AR_{crude}$, was found by dividing $n_{inf}$, the number of contacts subsequently infected by $n_{total}$, the total number of contacts reported (Equation 1). To determine the $R_{eff}$, we multiplied $AR_{crude}$ by $\bar{n}$, the average number of contacts per case (Equation 2).
 
 \begin{equation}
 \label{eqn:equation 1}
