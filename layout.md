@@ -7,4 +7,3 @@ Descriptive Analysis.tex
 Results 1.tex
 Table 2.tex
 Table 3.tex
-3.3	Monkeypox Transmission Dynamics.tex
