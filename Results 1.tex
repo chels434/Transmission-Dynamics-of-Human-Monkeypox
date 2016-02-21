@@ -6,7 +6,6 @@
 
 During the 2005-2007 active surveillance program in nine health zones of the Sankuru district, 1288 suspected cases were investigated. Samples collected from 1020 cases (79.19\%) underwent laboratory testing, of which 689 cases (67.55\%) were confirmed positive for MPX (MPX+). Of confirmed cases, 282 individuals (40.93\%) reported a total of 1,751 contact events with 1,349 individuals, and an average of 6.21 contacts per source case (range, 1-20). Source cases reported a significantly higher proportion of household contacts, with 85.71\% classified as household compared to 62\% in the 1980s (p-value \textless 0.001).
 
-Overall, 2847 individuals were reported as having close contact with a suspected case, for a total of 3404 contact reports. Of these, subsequently, 280 individuals from 397 contact reports were investigated as cases, with 113 individuals and 193 reports confirmed positive for MPX infection. 
 
 \begin{table}
 \centering
@@ -25,12 +24,55 @@ Total &	1741 & ~ & 2278 & 3.03 \\
 \end{tabular}
 \end{table}
 
+Overall, 2847 individuals were reported as having close contact with a suspected case, for a total of 3404 contact reports. Of these, subsequently, 280 individuals from 397 contact reports were investigated as cases, with 113 individuals and 193 reports confirmed positive for MPX infection. 
+
+
+
+\begin{table} % Add the following just after the closing bracket on this line to specify a position for the table on the page: [h], [t], [b] or [p] - these mean: here, top, bottom and on a separate page, respectively
+\centering % Centers the table on the page, comment out to left-justify
+\caption{Differences between crude secondary attack rates ($AR_{crude}$) and effective reproduction number ($R_{eff}$) between the active surveillance studies taking place 1981-1986, and 2005-2007.*** The data from the 1980s is reported as total contact reports, while the more recent study was able to identify individuals who were reported as a contact of multiple cases.} % Table caption, can be commented out if no caption is required
+\begin{tabular}{p{4cm}p{1.1cm}p{1cm}p{1cm}p{1.1cm}p{1.1cm}p{1cm}p{1cm}p{1.1cm}} % The final bracket specifies the number of columns in the table along with left and right borders which are specified using vertical bars (|); each column can be left, right or center-justified using l, r or c. To specify a precise width, use p{width}, e.g. p{5cm}
+\toprule % Top horizontal line
+& \multicolumn{4}{c}{\textbf{1981-1986*}} & \multicolumn{4}{c}{\textbf{2005-2007}}\\ % Amalgamating several columns into one cell is done using the \multicolumn command as seen on this line
+\cmidrule(l){2-5} \cmidrule(l){6-9} % Horizontal line spanning less than the full width of the table - you can add (r) or (l) just before the opening curly bracket to shorten the rule on the left or right side
+
+\textbf{Characteristic} & Total & MPX+ & $AR_{crude}$ & $R_{eff}$ & Total & MPX+ & $AR_{crude}$ & $R_{eff}$ \\ % Column names row
+\midrule % In-table horizontal line
+No. Source cases & 338 & & & & 689 & 282 & - & - \\ % Content row 3
+No. Contacts & - & & & & 1741 & 159 & 0.091 & 0.564 \\ % Content row 1
+No. Contact events & 2278 & 69 & 0.025 & 0.275 & 1348 & 94 & 0.070 & 0.430 \\ [0.1cm]
+Mean contacts per case (range) & 10.9 (1-44) & - & - & - & 6.2 (1-20) & - & - & - \\ 
+\bottomrule % Bottom horizontal line
+\end{tabular}
+ % A label for referencing this table elsewhere, references are used in text as \ref{label}
+\end{table}
+
+* Only includes contacts reported by suspected Primary cases thought to have been infected by an animal source.
 
 
 The majority of before and after contacts were reported to be siblings (56\% and 51\% respectively), with parents comprising 22\% of after contacts and only 9\% of before contacts (Figure 4). Individuals external to family were only 4\% of the reported after contacts, however, 13\% of the symptomatic before contacts were external, suggesting instances of household-to-household transmission. Differences in relationship frequencies in before and after contacts may also represent differences in caretaking and susceptibility patterns; for example, no grandparents were indicated as before contacts while 4\% of after contacts were grandparents (Figure 4).
 
 \subsection{Monkeypox Transmission Dynamics}
+
+\begin{table}
+\centering
+    \caption{Crude secondary attack rates, effective reproductive number and odds ratio for secondary infection by relation of contact to case}
+    \begin{tabular}{@{}lcccccc@{}}
+    \toprule
+    Relationship to Case & Total Contacts  & No. MPX+ & $AR_{crude}$ & $R_{eff}$ & Odds Ratio (95\% CI)  & p-value \\
+    \midrule
+  Extended and non-family   &  309   &   12   & 0.039 & 0.240 & 1.00               &  ~ \\
+  Immediate family  &  549   &   33   & 0.060 & 0.372 & 1.58 (0.81 - 3.11) & 0.180 \\
+  Sibling           &  883   &   114  & 0.129 & 0.798 & 3.67 (1.99 - 6.75) & \textless0.001 \\
+  \midrule
+  Total             &  1741  &   159  & 0.091 & 0.564 & -                & - \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
 Of the 282 confirmed MPX cases reporting after contacts, 87 individuals (29.2\%) started a chain of transmission, infecting 96 individual secondary cases, who represented 166 reported contacts due to their contact with multiple cases. Each contact was listed by an average of 1.28 cases (Table 4). The crude absolute secondary attack rate was found to be 0.067 (Table 5).
+
+
 
 \subsection{Characteristics of Disease Clusters}
 Among the 733 confirmed cases, 435 distinct chains of transmission were identified. Of all chains, 279 (64\%) consisted only of a single primary case with no secondary spread, while 59 (12.8\%) chains contained one or more co-primary cases, but no secondary generations (Table 4). A further 29 (6.7\%) chains were overlapping, meaning they contained one or more co-primary cases as well as at least one generation of secondary cases, making it difficult to distinguish which primary case infected which secondary. There were many chains that may have included additional suspected cases who did not have samples collected because they were either investigated too late, or there was an inadequate supply of materials. For example, in the village of Bolengo in the Kole health zone, 17 cases were investigated over a period of four months. The health worker visited the village three times, 1-1.5 months apart. Due to the long intervals between visits, samples were only able to be collected from 6/17 cases and 11 cases could not be definitively linked to the chain of transmission.
